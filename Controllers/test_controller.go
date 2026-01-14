@@ -17,7 +17,7 @@ type TestController struct {
 func NewTestController(db *sql.DB) *TestController {
     return &TestController{DB: db}
 }
-sds
+sdsd
 func (tc *TestController) setSearchPath() error {
     // Set search_path to public schema (required because isolated role has restricted search_path)
     // Using string concatenation to avoid C# string interpolation issues
